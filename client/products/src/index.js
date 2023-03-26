@@ -1,9 +1,16 @@
 /*
-  Generating Products
-  - create src/index.js
-    > we will use faker to generate some random products
+  Some Background on Webpack
+  - create webpack.config.js
+  - "start": "webpack"
+    > "start": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack"
+    > we set the options, because this package is old and we use the new nodejs version
 
-  (***) not run yet > we will use webpack to run > next lesson
+  
+  > npm run start
+    > create main.js inside dist/
+    > pic
+  
+
 */
 
 import faker from 'faker'
