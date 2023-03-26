@@ -1,13 +1,7 @@
 /*
-  A Touch More on Webpack P2
-  - create public/index.html
-    > we don't add script tag here, but when we use webpack, we will let webpack do this for us 
-    > explain in the picture 
-    > we will use html-webpack-plugin and it will figure out the names for us
+  Finishing the Product List
+  - index.html
 
-  > webpack.config.js
-  > after setup, we can go to http://localhost:8081/
-  
 */
 
 import faker from 'faker'
@@ -22,4 +16,4 @@ for (let i = 0; i < 3; i++) {
   `
 }
 
-console.log(products)
+document.querySelector('#dev-products').innerHTML = products // ***
