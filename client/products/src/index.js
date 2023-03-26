@@ -1,17 +1,13 @@
 /*
-  A Touch More on Webpack P1
-  - generate bundled js file does not help so much, because we need to load it in html file to make it available in the browser
-  - webpack.config.js
-    - add port on devServer
+  A Touch More on Webpack P2
+  - create public/index.html
+    > we don't add script tag here, but when we use webpack, we will let webpack do this for us 
+    > explain in the picture 
+    > we will use html-webpack-plugin and it will figure out the names for us
 
-  - package.json: 
-    + "webpack serve"
-
-  - start app again
-  (***) need to update webpack-cli & html-webpack-plugin (check package.json)
-
-  > http://localhost:8081/main.js > now we can access this 
-
+  > webpack.config.js
+  > after setup, we can go to http://localhost:8081/
+  
 */
 
 import faker from 'faker'
