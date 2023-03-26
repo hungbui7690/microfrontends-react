@@ -1,15 +1,16 @@
 /*
-  Some Background on Webpack
-  - create webpack.config.js
-  - "start": "webpack"
-    > "start": "SET NODE_OPTIONS=--openssl-legacy-provider && webpack"
-    > we set the options, because this package is old and we use the new nodejs version
+  A Touch More on Webpack P1
+  - generate bundled js file does not help so much, because we need to load it in html file to make it available in the browser
+  - webpack.config.js
+    - add port on devServer
 
-  
-  > npm run start
-    > create main.js inside dist/
-    > pic
-  
+  - package.json: 
+    + "webpack serve"
+
+  - start app again
+  (***) need to update webpack-cli & html-webpack-plugin (check package.json)
+
+  > http://localhost:8081/main.js > now we can access this 
 
 */
 
