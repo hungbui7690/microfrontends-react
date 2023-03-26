@@ -1,7 +1,13 @@
 /*
-  Finishing the Product List
-  - index.html
+  Scaffolding the Container
+  - create client/container/ 
+    > do the same like products/ 
+      + npm init -y
+      + install packages
+      + create public/index.html
+      + create webpack.config.js
 
+  - now, we have 2 projects > we will learn how to integrate these 2 projects together 
 */
 
 import faker from 'faker'
@@ -16,4 +22,4 @@ for (let i = 0; i < 3; i++) {
   `
 }
 
-document.querySelector('#dev-products').innerHTML = products // ***
+document.querySelector('#dev-products').innerHTML = products
